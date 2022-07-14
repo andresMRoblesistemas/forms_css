@@ -166,10 +166,15 @@ input:not(:placeholder-shown) + .campoHint{
 }
 
 .portada {
-    display: inline;
+  float: left;
+  display: inline;
+  width: 50%;
+  text-align: right;
 }
 .img-portada{
     width: 40%;
+    max-height: 300px;
+    max-width: 300px;
 }
 
 /* Responsive */
@@ -191,7 +196,6 @@ input:not(:placeholder-shown) + .campoHint{
       top: 10%;
     }
     .form-standard{
-      top: 0px;
         margin-right: auto;
         margin-left: auto;
         width: 100%;
