@@ -138,7 +138,7 @@ input[type=text], input[type=password]{
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
-  width: 100%;
+  width: 95%;
 }
 input[type=text]:focus {
   border: 2px solid rgb(64, 125, 255);
