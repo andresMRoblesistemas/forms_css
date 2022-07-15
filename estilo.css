@@ -138,7 +138,7 @@ input[type=text], input[type=password]{
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
-  width: 95%;
+  width: 300px;
 }
 input[type=text]:focus {
   border: 2px solid rgb(64, 125, 255);
@@ -177,9 +177,10 @@ input:not(:placeholder-shown) + .campoHint{
     max-width: 300px;
 }
 
+
 /* Responsive */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 675px) {
     .modal-content {
       width: 95%;
     }
@@ -200,4 +201,8 @@ input:not(:placeholder-shown) + .campoHint{
         margin-left: auto;
         width: 100%;
     }
+    input[type=text], input[type=password]{
+      width: 99%;
+    }
+
   }
