@@ -128,6 +128,7 @@ button {
 .form-standard {
   margin-right: 20px;
   float: right;
+  width: 30%;
 }
 input[type=text], input[type=password]{
   padding: 10px 10px 7px;
@@ -138,7 +139,7 @@ input[type=text], input[type=password]{
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
-  width: 300px;
+  width: 90%;
 }
 input[type=text]:focus {
   border: 2px solid rgb(64, 125, 255);
