@@ -40,10 +40,14 @@ body {
   to {top:0; opacity:1}
 }
 
-.id-cliente {
+.id-cliente{
   font-size: smaller;
   font-weight: 400;
   color: rgb(145, 145, 145);
+}
+
+.titulo{
+  font-weight:600;
 }
 
 .close{
@@ -206,4 +210,13 @@ input:not(:placeholder-shown) + .campoHint{
       width: 99%;
     }
 
+  }
+
+  @media only screen and (max-width: 430px) {
+    .encabezado{
+        margin-left: 20px;
+    }
+    .logo{
+      display: none;
+    }
   }
