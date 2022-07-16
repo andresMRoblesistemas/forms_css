@@ -89,7 +89,7 @@ input:not(:placeholder-shown) + .campoHint{
 
     .card{
         width: 80%;
-        margin: 10%;
+        margin: 5%;
     }
     input[type=text], input[type=password]{
       width: 90%;
