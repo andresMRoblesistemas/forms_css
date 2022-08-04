@@ -55,11 +55,34 @@ input[type=text], input[type=password]{
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
-  width: 90%;
+  width: 100%; /*estaba en 90% */
 }
+
+/* CODIGO NUEVO */
+.iconoDerecha {
+  position: relative;
+}
+.iconoDerecha input {
+  padding-right: 35px !important;
+}
+.iconoDerecha img {
+  position: absolute;
+  right: 0px;
+  padding: 15px 15px;
+  pointer-events: none;
+}
+
+.iconoPassword{
+  max-width: 20px;
+  max-height: 20px;
+}
+/* CODIGO NUEVO */
+
+
 input[type=text]:focus {
   border: 2px solid rgb(64, 125, 255);
 }
+
 .label{
     margin-bottom:0px;
     position:relative;
@@ -74,6 +97,7 @@ input[type=text]:focus {
     font-size:0.825em;
     transition-duration:300ms;
 }
+
 
 .label:focus-within > .campoHint,
 input:not(:placeholder-shown) + .campoHint{
@@ -90,9 +114,6 @@ input:not(:placeholder-shown) + .campoHint{
     .card{
         width: 80%;
         margin: 5%;
-    }
-    input[type=text], input[type=password]{
-      width: 90%;
     }
 
   }
